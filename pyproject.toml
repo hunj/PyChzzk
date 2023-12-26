@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pychzzk"
+version = "0.1.0"
+description = "Python wrapper for Naver's streaming service, Chzzk"
+authors = ["Hun Jae Lee <hunjaelee@protonmail.com>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.8.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
